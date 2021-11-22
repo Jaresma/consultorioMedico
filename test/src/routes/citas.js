@@ -1,0 +1,9 @@
+//routes/citas.js
+const express = require('express')
+const router = express.Router()
+
+router.get('/', (req, res, next) => {
+  res.send('You have hit GET /citas endpoint')
+})
+
+module.exports = router
